@@ -12,7 +12,7 @@
 { "type": "Feature", "properties": { "Name": "ΣΚΛΑΒΕΝΙΤΗΣ", "description": "supermarket" }, "geometry": { "type": "Point", "coordinates": [ 21.7372091, 38.2464889 ] } },
 { "type": "Feature", "properties": { "Name": "SUPERMARKET \"3A ARAPIS\"", "description": "supermarket" }, "geometry": { "type": "Point", "coordinates": [ 21.738641, 38.241149 ] } },
 { "type": "Feature", "properties": { "Name": "Arapis Market \"3A Arapis\" Ltd", "description": "supermarket" }, "geometry": { "type": "Point", "coordinates": [ 21.7338816, 38.2373888 ] } },
-{ "type": "Feature", "properties": { "Name": "Σκλαβενιτης", "description": "supermarket" }, "geometry": { "type": "Point", "coordinates": [ 21.7485919, 38.2414963 ] } }
+{ "type": "Feature", "properties": { "Name": "Σκλαβενιτης", "description": "supermarket" }, "geometry": { "type": "Point", "coordinates": [ 21.7485919, 38.2414963 ] } },
 { "type": "Feature", "properties": { "Name": "LAGIOU MARIA", "description": "convenience" }, "geometry": { "type": "Point", "coordinates": [ 21.7339537, 38.222 ] } },
 { "type": "Feature", "properties": { "Name": "Μίνι Μαρκετ", "description": "convenience" }, "geometry": { "type": "Point", "coordinates": [ 21.7313905, 38.245127 ] } },
 { "type": "Feature", "properties": { "Name": "COFFEE DAY MINI MARKET", "description": "convenience" }, "geometry": { "type": "Point", "coordinates": [ 21.749195, 38.2248512 ] } },

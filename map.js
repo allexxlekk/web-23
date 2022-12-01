@@ -10,125 +10,225 @@ mymap.setView([38.246242, 21.7350847], 16);
 
 //sample data values for populate map
 let data = {
-    type: "FeatureCollection",
-    generator: "overpass-ide",
-    copyright: "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-    timestamp: "2022-11-23T15:59:38Z",
-    features: [{
-            type: "Feature",
-            properties: {
-                "@id": "node/354449389",
-                brand: "Lidl",
-                "brand:wikidata": "Q151954",
-                "brand:wikipedia": "en:Lidl",
-                name: "Lidl",
-                opening_hours: "Mo-Fr 07:00-21:00, Sa 07:00-20:00",
-                shop: "supermarket"
+    "type": "FeatureCollection",
+    "name": "supermarket && convenience",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "Name": "ΑΒ Βασιλόπουλος",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.712654, 38.2080319]
-            },
-            id: "node/354449389"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.725032, 38.2321307]
+            }
         },
         {
-            type: "Feature",
-            properties: {
-                "@id": "node/360217468",
-                name: "The Mart",
-                "name:en": "The Mart",
-                shop: "supermarket"
+            "type": "Feature",
+            "properties": {
+                "Name": "ΑΒ Βασιλόπουλος",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.7806567, 38.28931]
-            },
-            id: "node/360217468"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7492675, 38.2612991]
+            }
         },
         {
-            type: "Feature",
-            properties: {
-                "@id": "node/360226900",
-                "addr:city": "Πάτρα",
-                "addr:housenumber": "9",
-                "addr:postcode": "26442",
-                "addr:street": "Νοταρά",
-                brand: "Lidl",
-                "brand:wikidata": "Q151954",
-                "brand:wikipedia": "en:Lidl",
-                name: "Lidl",
-                opening_hours: "Mo-Fr 09:00-21:00; Sa 9:00-20:00",
-                operator: "LIDL",
-                "payment:bitcoin": "no",
-                "payment:cash": "yes",
-                "payment:coins": "yes",
-                "payment:credit_cards": "yes",
-                "payment:debit_cards": "yes",
-                "payment:mastercard": "yes",
-                "payment:visa": "yes",
-                phone: "800 111 3333",
-                shop: "supermarket",
-                website: "https://www.lidl-hellas.gr/el/index.htm"
+            "type": "Feature",
+            "properties": {
+                "Name": "Lidl",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.7434265, 38.2633511]
-            },
-            id: "node/360226900"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7607333, 38.2100585]
+            }
         },
         {
-            type: "Feature",
-            properties: {
-                "@id": "node/364381224",
-                "addr:city": "Ρίο",
-                "addr:housenumber": "23",
-                "addr:postcode": "26504",
-                "addr:street": "Αθηνών",
-                name: "Σουπερμάρκετ Ανδρικόπουλος",
-                "name:en": "Supermarket Andrikopoulos",
-                operator: "Andrikopoulos",
-                shop: "supermarket"
+            "type": "Feature",
+            "properties": {
+                "Name": "Andrikópoulos",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.7908028, 38.2952086]
-            },
-            id: "node/364381224"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7303537, 38.2429315]
+            }
         },
         {
-            type: "Feature",
-            properties: {
-                "@id": "node/364463568",
-                brand: "Σκλαβενίτης",
-                "brand:el": "Σκλαβενίτης",
-                "brand:en": "Sklavenitis",
-                "brand:wikidata": "Q7536037",
-                name: "Σκλαβενίτης",
-                "name:el": "Σκλαβενίτης",
-                "name:en": "Sklavenitis",
-                shop: "supermarket"
+            "type": "Feature",
+            "properties": {
+                "Name": "Lidl",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.7642075, 38.2104365]
-            },
-            id: "node/364463568"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.74391, 38.263287]
+            }
         },
         {
-            type: "Feature",
-            properties: {
-                "@id": "node/598279836",
-                name: "Papakos",
-                shop: "convenience"
+            "type": "Feature",
+            "properties": {
+                "Name": "SUPERMARKET \"3A ARAPIS\"",
+                "description": "supermarket"
             },
-            geometry: {
-                type: "Point",
-                coordinates: [21.7622778, 38.23553]
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7398956, 38.2506085]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "ΣΚΛΑΒΕΝΙΤΗΣ",
+                "description": "supermarket"
             },
-            id: "node/598279836"
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7372091, 38.2464889]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "SUPERMARKET \"3A ARAPIS\"",
+                "description": "supermarket"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.738641, 38.241149]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Arapis Market \"3A Arapis\" Ltd",
+                "description": "supermarket"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7338816, 38.2373888]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Σκλαβενιτης",
+                "description": "supermarket"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7485919, 38.2414963]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "LAGIOU MARIA",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7339537, 38.222]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Μίνι Μαρκετ",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7313905, 38.245127]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "COFFEE DAY MINI MARKET",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.749195, 38.2248512]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Kioskys Convenience Store",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7338458, 38.23683]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "AVIN",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7597707, 38.2740328]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "bp",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7644031, 38.277433]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Παραδοσιακο παντοπωλειο",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.733827, 38.245317]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "CONVENIENCE STORE",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.749591, 38.261448]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "DELLINIKON",
+                "description": "convenience"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [21.7383458, 38.250432]
+            }
         }
     ]
-};
+}
 
 mymap.addLayer(
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png")
@@ -137,7 +237,8 @@ mymap.addLayer(
 ////////////populate map with GeoJSON feature layer
 var featuresLayer = new L.GeoJSON(data, {
     onEachFeature: function (feature, marker) {
-        marker.bindPopup("<h4>" + feature.properties.name + "</h4>");
+        marker.bindPopup("<h4>" + feature.properties.Name + "</h4>");
+
     }
 });
 featuresLayer.addTo(mymap);
