@@ -22,7 +22,7 @@ function login(username, password) {
   return false;
 }
 
-const loginSelect = document.querySelector(".loginSelect");
+const loginSelect = document.querySelector("#loginSelect");
 loginSelect.addEventListener("click", (e) => {
   const loginForm = document.querySelector("#login-form");
   loginForm.classList.toggle("hidden");
